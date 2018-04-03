@@ -10,5 +10,8 @@ get '/secret' do
 end
 
 get '/cat' do
-  "Sam likes cats"
+  "<div>
+    <img src='http://bit.ly/1eze8aE' alt='Picture of a cute kitten'>
+  </div>"
+
 end
